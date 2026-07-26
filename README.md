@@ -1,2 +1,2 @@
-# Nonb_Augmentation
-Data Augmentation in the latent space for nonb structure detection problem
+# NR-Contrastive Model
+Contrastive Learning to Enrich Rare non-B DNA Signals for Structure Prediction from Nanopore Translocation Time Data
