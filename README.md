@@ -83,18 +83,6 @@ Stage 2 additionally needs **bedtools** and **R with IWTomics**; those are insta
 [SNP frequency analysis](#snp-frequency-analysis) below, and are not needed for anything in the
 Simulations section.
 
-## Where the data lives
-
-`nrcl/paths.py` resolves every input location once, so nothing else hard-codes an absolute path.
-Each is an environment variable with a fallback under `data/`:
-
-| Variable | Default | Holds |
-|---|---|---|
-| `NONB_DATA_ROOT` | `./data` | root for everything below |
-| `NONB_SIMULATED_DATA` | `$NONB_DATA_ROOT/simulated_data` | `forward_*.npy` / `reverse_*.npy` + `<Motif>_centered_*.csv` |
-| `NONB_EXPERIMENT_DATA` | `$NONB_DATA_ROOT/Experiment_Data` | `<Motif>_{train,val,test}.csv` |
-
-`data/README.md` lists each file, its size, and the commands to rebuild the annotation tracks.
 
 ## Simulations
 ### Simulation Data
